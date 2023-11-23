@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/variety-eco-bags-shopping-bags-green-background_573856-99.jpg?w=1060');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.logo h1, .auth-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navigation {
+    background: #ffffff;
+    align-items: center;
+}
+
+/* ... (existing CSS) */
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the menu items horizontally */
+    margin-right: auto; /* Push the menu to the left */
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 20px;
+    font-weight: 700;
+    
+}
+
+.menu li {
+    margin-right: 55px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+/* ... (existing CSS) */
+
+
+
+.menu li a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #c9b4e2;
+    transition: color 0.3s;
+}
+
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #845bb3;
+    transition: color 0.3s;
+}
+
+/* ... (existing CSS) */
+
+/* ... (existing CSS) */
+
+/* ... (existing CSS) */
+
+.search-container {
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0 0 15px; /* Adjust border-radius for a rounded corner on the left */
+    width: 600px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.search-button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #75928f;
+    color: #fff;
+    border: none;
+    border-radius: 0 15px 15px 0; /* Adjust border-radius for a rounded corner on the right */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #845bb3;
+    transition: background-color 0.3s;
+}
+
+/* ... (existing CSS) */
+
+/* ... (existing CSS) */
+
+
+.auth-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #7dc38e; /* Pastel green color */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.auth-link:hover {
+    background-color: #7dc38e; /* Pastel green color on hover */
+    color: #fff; /* Text color on hover */
+    border-color: #fff; /* Border color on hover */
+}
+
+/* ... (existing CSS) */
+
+.suggestions {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px; /* Add space between search bar and suggestions */
+}
+
+.suggestion-item {
+        background-color: #89beab; /* Background color */
+        color: #fff; /* Text color */
+        padding: 2px 18px; /* Adjust padding for spacing inside the box */
+        border-radius: 12px 20px 12px 20px; /* Longer corners on both ends */
+        transition: background-color 0.3s;
+        margin-right: 35px;
+        border: 4px solid #89beab; /* Border width, adjust as needed */
+        box-sizing: border-box; /* Include the border in the box model */
+    
+    
+}
+
+
+.suggestion-item:hover {
+    background-color: #67b196; /* Change background color on hover */
+}
+
+.header-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-title h2 {
+    font-weight: 1000;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: inherit;
+    line-height: 1.6;
+    margin-top: 10px; /* Adjust the margin as needed */
+    max-width: 600px; /* Set a maximum width to control the width of the paragraph */
+    margin-left: auto;
+    margin-right: auto;
+}
