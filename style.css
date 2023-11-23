@@ -38,6 +38,8 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-right: 20px;
+    font-size: 35px;
+
 }
 
 .auth-section {
@@ -104,7 +106,7 @@ body {
 }
 
 .menu li a:hover {
-    color: #67b196;
+    color: #404f4a;
     transition: color 0.3s;
 }
 
@@ -137,7 +139,7 @@ body {
     font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 15px; 
-    width: 300px;
+    width: 600px;
 }
 
 .search-button {
@@ -192,16 +194,17 @@ border-color: #fff; /* Border color on hover */
 .suggestions {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .suggestion-item {
-    background-color: #75928f;
+    background-color: #798e8e;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 17px;
     transition: background-color 0.3s;
-    margin-right: 10px;
+    margin-right: 20px;
+    width: 120px;
     cursor: pointer;
 }
 
@@ -292,6 +295,7 @@ border-color: #fff; /* Border color on hover */
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+    
 }
 /* Add these styles to your existing CSS */
 
@@ -316,6 +320,7 @@ border-color: #fff; /* Border color on hover */
 .popup-content button {
     padding: 12px;
     background-color: #75928f;
+    margin-top: 10px;
     color: #fff;
     border: none;
     border-radius: 4px;
