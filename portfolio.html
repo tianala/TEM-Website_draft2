@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreatehub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1><a href="portfolio.html" class="nav-link">Recreatehub</a>
+        </div>  
+        <div class="navigation">
+            <ul class="menu">
+                <li><a href="portfolio.html" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Projects</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+     
+
+        <div class="auth-section">
+            <button class="auth-button" onclick="openPopup('loginPopup')">Log In</button>
+            <span class="divider">|</span>
+            <button class="auth-button" onclick="openPopup('signupPopup')">Sign Up</button>
+        </div>
+        
+
+    </header>
+
+    
+    <div class="header-title">
+        <h2>Find a Specific Item to Recreate</h2>
+        <p class="subtext">Recreatehub: Your go-to destination for sustainable living. Discover inspiring recycling projects, connect with a green community, and explore creative ways to repurpose materials. Join us in reimagining a greener future.</p>
+    </div>
+    
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" placeholder="What are you looking for?" class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+        
+        <div class="suggestions">
+           <!-- Suggestions for Clothes -->
+<div class="suggestion-item" id="suggestion-clothes"><a href="CLOTHES.HTML" class="suggestion-link">Clothes</a></div>
+
+<!-- Suggestions for Bottles -->
+<div class="suggestion-item" id="suggestion-bottles"><a href="BOTTLES.HTML" class="suggestion-link">Bottles</a></div>
+
+<!-- Suggestions for Tires -->
+<div class="suggestion-item" id="suggestion-tires"><a href="TIRES.HTML" class="suggestion-link">Tires</a></div>
+
+<!-- Suggestions for Plastics -->
+<div class="suggestion-item" id="suggestion-plastics"><a href="METALS.HTML" class="suggestion-link">Metals</a></div>
+
+        </div>
+    </div>
+
+
+    <!-- Add this code within the popup-content div for both Log In and Sign Up pop-ups -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('loginPopup')">&times;</span>
+        <h2>Login</h2>
+        <form action="#" method="post" onsubmit="return validateLoginForm()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</div>
+
+<div id="signupPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('signupPopup')">&times;</span>
+        <h2>Sign Up</h2>
+        <form action="#" method="post" onsubmit="return validateSignupForm()">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
