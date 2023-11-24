@@ -30,13 +30,15 @@ body {
 .logo {
     display: flex;
     align-items: center;
-}
+    font-family: 'Lora', serif;
+    }
+
 
 .logo h1 {
     color: #67b196;
     text-decoration: none;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     margin-right: 20px;
     font-size: 35px;
 
@@ -76,7 +78,7 @@ body {
     }
 
     .menu li {
-        margin-right: 55px;
+        margin-right: 70px;
     }
     
     
@@ -100,13 +102,13 @@ body {
 
 .menu li a {
     font-size: 18px;
-    color: #67b196;
+    color: #343836;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .menu li a:hover {
-    color: #404f4a;
+    color: #6c9688;
     transition: color 0.3s;
 }
 
@@ -115,6 +117,16 @@ body {
     color: #333;
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.nav-link1 {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 35px;
+    font-weight: 7000;
 }
 
 .nav-link:hover {
@@ -128,6 +140,11 @@ body {
 
 /* ... (existing CSS) */
 
+.search-bar {
+    display: flex;
+    gap: 0; /* Remove any gap between items */
+    justify-content: center;
+}
 .search-container {
     text-align: center;
     position: relative;
@@ -139,7 +156,9 @@ body {
     font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 15px; 
-    width: 600px;
+    width: 665px;
+    border-radius: 15px 0 0 15px;
+    margin: 0; /* Remove default margin */
 }
 
 .search-button {
@@ -148,14 +167,21 @@ body {
     background-color: #75928f;
     color: #fff;
     border: none;
-    border-radius: 15px; 
+    border-top-left-radius: 5px; /* Pointy left side */
+    border-bottom-left-radius: 5px; /* Pointy left side */
+    border-top-right-radius: 15px; /* Edgy right side */
+    border-bottom-right-radius: 15px; /* Edgy right side */
     cursor: pointer;
     transition: background-color 0.3s, border-radius 0.3s; /* Added border-radius to the transition */
+    border-radius: 0 15px 15px 0;
 }
 
 .search-button:hover {
     background-color: #7dc38e;
-    border-radius: 0; /* Change border-radius on hover */
+    border-top-left-radius: 5px; /* Pointy left side on hover */
+    border-bottom-left-radius: 5px; /* Pointy left side on hover */
+    border-top-right-radius: 15px; /* Edgy right side on hover */
+    border-bottom-right-radius: 15px; /* Edgy right side on hover */
 }
 
 @media (max-width: 768px) {
@@ -198,7 +224,7 @@ border-color: #fff; /* Border color on hover */
 }
 
 .suggestion-item {
-    background-color: #798e8e;
+    background-color: #ffffff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 17px;
@@ -206,11 +232,12 @@ border-color: #fff; /* Border color on hover */
     margin-right: 20px;
     width: 120px;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .suggestions a{
     text-decoration: none;
-    color: white
+    color: rgb(100, 98, 98)
     ;
 }
 
@@ -235,7 +262,7 @@ border-color: #fff; /* Border color on hover */
     text-align: inherit;
     line-height: 1.6;
     margin-top: 10px; /* Adjust the margin as needed */
-    max-width: 600px; /* Set a maximum width to control the width of the paragraph */
+    max-width: 700px; /* Set a maximum width to control the width of the paragraph */
     margin-left: auto;
     margin-right: auto;
 }
@@ -247,10 +274,11 @@ border-color: #fff; /* Border color on hover */
 }
 
 .suggestion-item:hover {
-    background-color: #67b196;
+    background-color: #ffffff;
     cursor: pointer;
     transform: scale(1.1); /* Add a slight scale effect on hover */
     transition: background-color 0.3s, transform 0.3s;
+
 }
 
 .auth-button {
