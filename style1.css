@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6b9675;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.logo {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    margin-right: auto; /* Push search container to the right */
+}
+
+.search-bar {
+    position: relative;
+    width: 100%; /* Set the width to 100% to fill available space */
+}
+
+.search-input-wrapper {
+    position: relative;
+}
+
+.search-input-field {
+    padding: 11px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    width: 550px;
+    padding-right: 40px; /* Adjust the padding to make space for the icons */
+}
+
+.button-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    right: 13px;
+}
+
+.second-bar {
+    background: #d6d5d5;
+    padding: 13px 55px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    color: #575757;
+    text-align: start;
+}
+
+.home-icon {
+    cursor: pointer;
+    padding: 0 15px; /* Adjust padding to provide space around the icon */
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.home-icon:hover {
+    transform: scale(2.2); /* Increase the size on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.close-icon {
+    margin-left: 550px;
+    color: #fff;
+    font-size: 30px;
+    opacity: 1;
+    transition: opacity 0.3s, text-shadow 0.3s, transform 0.3s;
+}
+
+.close-icon:hover {
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow on hover */
+    transform: scale(1.2); /* Add a slight scale effect on hover */
+}
+.search-container:hover .close-icon {
+    opacity: 1;
+}
+
+/* Your existing CSS styles */
+
+.third-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.third-section .image-container {
+    position: relative;
+}
+
+.third-section img {
+    max-width: 25%;
+    height:auto;
+    border-radius: 10px; /* Add border-radius for a rounded corner effect */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.third-section img:hover {
+    transform: scale(1.0); /* Increase the size on hover */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.third-section h2 {
+    text-align:right;
+    position:absolute;
+    bottom: 10;
+    top: 2%;
+    left: 100;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
+    width: 48%; /* Full width */
+    height: 600;
+    color: #575757;
+}
+
+.paragraph-text {
+    font-size: 18px;
+    color: #575757;
+    margin-top: -160px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 27%;
+    
+}
+
+.half-line {
+    width: 40%;
+    height: 3px;
+    background-color: #6b9675; /* Color of the line */
+    margin: 25px auto; /* Adjust margin as needed */
+}
+
+
+.fourth-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.fourth-section .image-container {
+    position: relative;
+}
+
+.fourth-section img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px; /* Add border-radius for a rounded corner effect */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.fourth-section img:hover {
+    transform: scale(1.0); /* Increase the size on hover */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.fourth-section h2 {
+    text-align:right;
+    position:absolute;
+    bottom: 10;
+    top: 60%;
+    left: 10;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
+    width: 47%; /* Full width */
+    height: 600;
+    color: #575757;
+}
+
+.paragraph-text2 {
+    font-size: 18px;
+    color: #575757;
+    margin-top: -160px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 27%;
+    
+}
+
+.half-line2 {
+    width: 40%;
+    height: 4px;
+    background-color: #6b9675; /* Color of the line */
+    margin: 25px auto; /* Adjust margin as needed */
+}
+
+
+.fifth-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.fifth-section .image-container {
+    position: relative;
+}
+
+.fifth-section img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px; /* Add border-radius for a rounded corner effect */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.fifth-section img:hover {
+    transform: scale(1.0); /* Increase the size on hover */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.fifth-section h2 {
+    text-align:right;
+    position:absolute;
+    bottom: 10;
+    top: 99%;
+    left: 10;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
+    width: 47%; /* Full width */
+    height: 600;
+    color: #575757;
+}
+
+.paragraph-text3 {
+    font-size: 18px;
+    color: #575757;
+    margin-top: -160px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 27%;
+    
+}
