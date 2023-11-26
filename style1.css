@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f4f2f2;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 .close-icon {
-    margin-left: 550px;
+    margin-left:550px;
     color: #fff;
     font-size: 30px;
     opacity: 1;
@@ -103,7 +103,14 @@ body {
     opacity: 1;
 }
 
-/* Your existing CSS styles */
+.content-box {
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 35px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+}
 
 .third-section {
     text-align: left;
@@ -115,11 +122,12 @@ body {
 }
 
 .third-section img {
-    max-width: 25%;
-    height:auto;
+    max-width: 30%;
+    height: auto;
     border-radius: 10px; /* Add border-radius for a rounded corner effect */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+    top: 90%;
 }
 
 .third-section img:hover {
@@ -128,36 +136,32 @@ body {
 }
 
 .third-section h2 {
-    text-align:right;
-    position:absolute;
-    bottom: 10;
-    top: 2%;
+    text-align: right;
+    position: absolute;
+    bottom: 3;
+    top: -7%;
     left: 100;
     padding: 10px;
     margin: 0;
     border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
-    width: 48%; /* Full width */
+    width: 57%; /* Full width */
     height: 600;
     color: #575757;
+    font-size: 110%;
 }
 
 .paragraph-text {
-    font-size: 18px;
+    font-size: 14px;
     color: #575757;
-    margin-top: -160px;
+    margin-top: -140px;
     max-width: 1000px;
     text-align: justify;
     line-height: 1.5;
-    margin-left: 27%;
-    
+    margin-left: 32%;
+    margin-right: 0%;
 }
 
-.half-line {
-    width: 40%;
-    height: 3px;
-    background-color: #6b9675; /* Color of the line */
-    margin: 25px auto; /* Adjust margin as needed */
-}
+/* Continue with your other CSS styles */
 
 
 .fourth-section {
@@ -165,12 +169,21 @@ body {
     padding: 20px;
 }
 
+.content-box2 {
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 15px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+}
+
 .fourth-section .image-container {
     position: relative;
 }
 
 .fourth-section img {
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     border-radius: 10px; /* Add border-radius for a rounded corner effect */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -187,34 +200,37 @@ body {
     position:absolute;
     bottom: 10;
     top: 60%;
-    left: 10;
+    left: 100;
     padding: 10px;
     margin: 0;
     border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
-    width: 47%; /* Full width */
+    width: 35%; /* Full width */
     height: 600;
     color: #575757;
+    font-size: 110%;
+
+
 }
 
 .paragraph-text2 {
-    font-size: 18px;
+    font-size: 14px;
     color: #575757;
-    margin-top: -160px;
+    margin-top: -140px;
     max-width: 1000px;
     text-align: justify;
     line-height: 1.5;
-    margin-left: 27%;
+    margin-left: 32%;
+    margin-right: 0%;
     
 }
-
-.half-line2 {
-    width: 40%;
-    height: 4px;
-    background-color: #6b9675; /* Color of the line */
-    margin: 25px auto; /* Adjust margin as needed */
+.content-box3 {
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 15px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
 }
-
-
 .fifth-section {
     text-align: left;
     padding: 20px;
@@ -225,7 +241,7 @@ body {
 }
 
 .fifth-section img {
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     border-radius: 10px; /* Add border-radius for a rounded corner effect */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -241,23 +257,25 @@ body {
     text-align:right;
     position:absolute;
     bottom: 10;
-    top: 99%;
-    left: 10;
+    top: 93%;
+    left: 100;
     padding: 10px;
     margin: 0;
     border-radius: 0 0 10px 10px; /* Add border-radius for a rounded bottom corner effect */
-    width: 47%; /* Full width */
+    width: 35%; /* Full width */
     height: 600;
     color: #575757;
+    font-size: 110%;
 }
 
 .paragraph-text3 {
-    font-size: 18px;
+    font-size: 14px;
     color: #575757;
-    margin-top: -160px;
+    margin-top: -140px;
     max-width: 1000px;
     text-align: justify;
     line-height: 1.5;
-    margin-left: 27%;
+    margin-left: 32%;
+    margin-right: 0%;
     
 }
