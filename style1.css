@@ -117,6 +117,20 @@ body {
     padding: 20px;
 }
 
+.third-section a {
+    text-decoration: none;
+    color: #575757; /* Set the link color */
+    transition: color 0.3s, box-shadow 0.3s; /* Add transitions for color and box-shadow changes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.third-section a:hover {
+    color: #000; /* Set the color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+}
+
+
+
 .third-section .image-container {
     position: relative;
 }
@@ -221,6 +235,7 @@ body {
     line-height: 1.5;
     margin-left: 32%;
     margin-right: 0%;
+    text-decoration: none;
     
 }
 .content-box3 {
@@ -277,5 +292,6 @@ body {
     line-height: 1.5;
     margin-left: 32%;
     margin-right: 0%;
+    text-decoration: none;
     
 }
