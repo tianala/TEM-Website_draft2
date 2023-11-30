@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f2f2;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6b9675;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.logo {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    margin-right: auto; /* Push search container to the right */
+}
+
+.search-bar {
+    position: relative;
+    width: 100%; /* Set the width to 100% to fill available space */
+}
+
+.search-input-wrapper {
+    position: relative;
+}
+
+.search-input-field {
+    padding: 11px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    width: 550px;
+    padding-right: 40px; /* Adjust the padding to make space for the icons */
+}
+
+.button-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    right: 13px;
+}
+
+.second-bar {
+    background: #d6d5d5;
+    padding: 13px 55px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    color: #575757;
+    text-align: start;
+}
+
+.home-icon {
+    cursor: pointer;
+    padding: 0 15px; /* Adjust padding to provide space around the icon */
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.home-icon:hover {
+    transform: scale(2.2); /* Increase the size on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.close-icon {
+    margin-left:550px;
+    color: #fff;
+    font-size: 30px;
+    opacity: 1;
+    transition: opacity 0.3s, text-shadow 0.3s, transform 0.3s;
+}
+
+.close-icon:hover {
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow on hover */
+    transform: scale(1.2); /* Add a slight scale effect on hover */
+}
+.search-container:hover .close-icon {
+    opacity: 1;
+}
+
+.content-box {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 35px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+    height: 220px;
+
+}
+
+
+/* ... (previous CSS code) ... */
+
+.third-section {
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
+
+.bottom-image {
+    width: 30%;
+    height: auto;
+    max-height: 80%;
+    border-radius: 15px 15px 15px 15px;
+    top: 50%; /* Adjust the top value to move the image upward */
+    bottom: auto; /* Reset the bottom property */
+    margin-left: -2%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-image:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.third-section h2 {
+    text-align: right;
+    position: absolute;
+    bottom: 3px;
+    top: 25px; 
+    left: 22px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    width: 66.5%;
+    color: #575757;
+    font-size: 120%;
+}
+
+.third-section a {
+    text-decoration: none;
+    color: #575757; /* Set the link color */
+    transition: color 0.3s, box-shadow 0.3s; /* Add transitions for color and box-shadow changes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.paragraph-text {
+    font-size: 14px;
+    color: #575757;
+    margin-top: -131px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 30%;
+    margin-right: 0%;
+}
+
+.rating {
+    font-size: 30px;
+    float: right; /* Align to the right */
+    margin-top: -30px; /* Adjust the top margin as needed */
+    margin-right: 20px;
+}
+
+.star {
+    color: #ccc;
+    display: inline-block;
+    margin-right: -7px;
+}
+
+.highlighted {
+    color: gold;
+}
+
+
+.content-box2 {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 20px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+    height: 220px;
+
+}
+
+
+/* ... (previous CSS code) ... */
+
+.fourth-section {
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
+
+.bottom-image2 img {
+    width: 29%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 15px;
+    top: -30px; /* Adjust the top value to move the image upward */
+    left: -2%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-image2 img:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.fourth-section h2 {
+    text-align: right;
+    position: absolute;
+    bottom: 3px;
+    top: -175px;
+    left: 25px;
+    padding: 16px;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    width: 72%;
+    color: #575757;
+    font-size: 120%;
+}
+
+.paragraph-text2 {
+    font-size: 14px;
+    color: #575757;
+    margin-top: -175px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 31%;
+    margin-right: 2%;
+}
+
+.rating2 {
+    font-size: 30px;
+    float: right;
+    margin-top: -17%; /* Adjust the top margin as needed */
+    margin-left: -100%;
+}
+
+.highlighted2 {
+    color: gold;
+    margin-top: -15%; /* Adjust the top margin as needed */
+    margin-left: -4%;
+}
+
+
+.content-box3 {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 20px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+    height: 220px;
+
+}
+
+
+/* ... (previous CSS code) ... */
+
+.fifth-section {
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
+
+.bottom-image3 img {
+    width: 29%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 15px;
+    top: -30px; /* Adjust the top value to move the image upward */
+    left: -2%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-image3 img:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.fifth-section h2 {
+    text-align: right;
+    position: absolute;
+    bottom: 3px;
+    top: -180px;
+    left: 20px;
+    padding: 16px;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    width: 52%;
+    color: #575757;
+    font-size: 120%;
+}
+
+.paragraph-text3 {
+    font-size: 14px;
+    color: #575757;
+    margin-top: -180px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 31%;
+    margin-right: 2%;
+}
+
+.rating3 {
+    font-size: 30px;
+    float: right;
+    margin-top: -16%; /* Adjust the top margin as needed */
+    margin-left: -100%;
+}
+
+.star2 {
+    color: #ccc;
+    display: inline-block;
+    margin-right: 0%; /* Adjust the right margin */
+    margin-left: -5%; /* Adjust the left margin */
+}
+
+.highlighted3 {
+    color: gold;
+    margin-top: -15%; /* Adjust the top margin as needed */
+    margin-left: -5%; /* Adjust the left margin */
+}
+
+
+.content-box4 {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 20px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add padding to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+    height: 224px;
+
+}
+
+
+/* ... (previous CSS code) ... */
+
+.sixth-section {
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
+
+.bottom-image4 img {
+    width: 29%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 15px;
+    top: -30px; /* Adjust the top value to move the image upward */
+    left: -2%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-image4 img:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.sixth-section h2 {
+    text-align: right;
+    position: absolute;
+    bottom: 3px;
+    top: -191px;
+    left: 20px;
+    padding: 16px;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    width: 55%;
+    color: #575757;
+    font-size: 120%;
+}
+
+.paragraph-text4 {
+    font-size: 14px;
+    color: #575757;
+    margin-top: -193px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 31%;
+    margin-right: 2%;
+}
+
+.rating4 {
+    font-size: 30px;
+    float: right;
+    margin-top: -16%; /* Adjust the top margin as needed */
+    margin-left: -100%;
+}
+
+.star3 {
+    color: #ccc;
+    display: inline-block;
+    margin-right: 0%; /* Adjust the right margin */
+    margin-left: -5%; /* Adjust the left margin */
+}
+
+.highlighted4 {
+    color: gold;
+    margin-top: -15%; /* Adjust the top margin as needed */
+    margin-left: -5%; /* Adjust the left margin */
+}
