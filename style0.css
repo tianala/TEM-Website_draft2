@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/variety-eco-bags-shopping-bags-green-background_573856-99.jpg?w=1060');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.header-title h2 {
+    font-weight: 1000; /* Adjusted font weight */
+    color: #67b196; /* Consistent color with the logo */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1); /* Add text shadow */
+    font-size: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Lora', serif;
+    }
+
+    .logo img {
+        height: 55px; /* Adjust the height as needed */
+        margin-right: 20px;
+    }
+
+
+.logo h1 {
+    color: #67b196;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+    font-size: 35px;
+
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.divider {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navigation {
+    background: #ffffff;
+    align-items: center;
+}
+
+/* ... (existing CSS) */
+
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the menu items horizontally */
+        margin-right: auto; /* Push the menu to the left */
+
+    }
+
+    .menu {
+        list-style-type: none;
+        display: flex;
+        padding: 10px 20px;
+        font-weight: 700;
+        
+    }
+
+    .menu li {
+        margin-right: 70px;
+    }
+    
+    
+    .menu li.active a {
+        color: #67b196; /* Set the active page color */
+        text-decoration: underline; /* Underline for active link */
+    }
+    
+
+.menu li.active a {
+    color: #67b196; /* Set the active page color */
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+/* ... (existing CSS) */
+
+
+
+.menu li a {
+    font-size: 18px;
+    color: #343836;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #313131;
+    transition: color 0.3s;
+    font-weight: 600; 
+}
+
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.nav-link1 {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 35px;
+    font-weight: 7000;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transition: color 0.3s;
+    transform: scale(1.0);  /* Add a slight scale effect on hover */
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ... (existing CSS) */
+
+/* ... (existing CSS) */
+
+/* ... (existing CSS) */
+
+.search-bar {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+.search-container {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+    width: 665px;
+    border-radius: 15px 0 0 15px;
+    margin: 0; /* Remove default margin */
+}
+
+.search-button {
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #75928f;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 5px; /* Pointy left side */
+    border-bottom-left-radius: 5px; /* Pointy left side */
+    border-top-right-radius: 15px; /* Edgy right side */
+    border-bottom-right-radius: 15px; /* Edgy right side */
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s; /* Added border-radius to the transition */
+    border-radius: 0 15px 15px 0;
+}
+
+.search-button:hover {
+    background-color: #7dc38e;
+    border-top-left-radius: 5px; /* Pointy left side on hover */
+    border-bottom-left-radius: 5px; /* Pointy left side on hover */
+    border-top-right-radius: 15px; /* Edgy right side on hover */
+    border-bottom-right-radius: 15px; /* Edgy right side on hover */
+}
+
+.auth-link {
+display: inline-block;
+padding: 10px 20px;
+border: 2px solid #7dc38e; /* Pastel green color */
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.auth-link:hover {
+background-color: #7dc38e; /* Pastel green color on hover */
+color: #fff; /* Text color on hover */
+border-color: #fff; /* Border color on hover */
+}
+
+/* ... (existing CSS) */
+
+.suggestions {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.suggestion-item {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 17px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+    width: 120px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Add box shadow to the search bar */
+}
+
+.suggestions a{
+    text-decoration: none;
+    color: rgb(100, 98, 98)
+    ;
+}
+
+.suggestion-item:hover {
+    background-color: #67b196;
+}
+
+.header-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-title h2 {
+    font-weight: 1000;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: inherit;
+    line-height: 1.6;
+    margin-top: 10px; /* Adjust the margin as needed */
+    max-width: 700px; /* Set a maximum width to control the width of the paragraph */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); /* Add text shadow */
+}
+
+/* Add this at the end of your CSS file */
+.suggestion-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.suggestion-item:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+.auth-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #75928f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.auth-button:hover {
+    background-color: #7dc38e; /* Lighter green on hover */
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+/* Add this code to your existing CSS */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+/* Add these styles to your existing CSS */
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.popup-content input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.popup-content button {
+    padding: 12px;
+    background-color: #75928f;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.popup-content button:hover {
+    background-color: #7dc38e;
+}
+
+.popup-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Additional styles for form container */
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Center form within the container */
+.popup-content form {
+    width: 100%;
+}
+
+@media (min-width: 50px) and (max-width: 576px) {
+    .suggestions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suggestion-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+        flex-grow: 1;
+    }
+
+    .header-title h2 {
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .menu li {
+        margin-right: 70px;
+    }
+
+    .logo img {
+        height: 55px;
+        margin-right: 20px;
+    }
+
+    .auth-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .suggestion-item {
+        margin-right: 2%;
+        flex-grow: 0;
+    }
+
+    .header-title h2 {
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+    .menu li {
+        margin-right: 70px;
+    }
+
+    .logo img {
+        height: 55px;
+        margin-right: 20px;
+    }
+
+    .auth-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .suggestion-item {
+        margin-right: 2%;
+        flex-grow: 0;
+    }
+
+    .header-title h2 {
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+    .menu li {
+        margin-right: 70px;
+    }
+
+    .logo img {
+        height: 55px;
+        margin-right: 20px;
+    }
+
+    .auth-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 993px) {
+    .suggestion-item {
+        margin-right: 1.5%;
+        flex-grow: 0;
+    }
+
+    .header-title h2 {
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+    .menu li {
+        margin-right: 70px;
+    }
+
+    .logo img {
+        height: 55px;
+        margin-right: 20px;
+    }
+
+    .auth-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}

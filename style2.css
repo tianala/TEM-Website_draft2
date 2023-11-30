@@ -148,7 +148,7 @@ body {
     padding: 10px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 55%;
+    width: 62%;
     color: #575757;
     font-size: 120%;
 }
@@ -252,7 +252,7 @@ body {
 .rating2 {
     font-size: 30px;
     float: right;
-    margin-top: -15%; /* Adjust the top margin as needed */
+    margin-top: -17%; /* Adjust the top margin as needed */
     margin-left: -100%;
 }
 
@@ -307,7 +307,7 @@ body {
     padding: 16px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 58.5%;
+    width: 77%;
     color: #575757;
     font-size: 120%;
 }
@@ -326,7 +326,7 @@ body {
 .rating3 {
     font-size: 30px;
     float: right;
-    margin-top: -19%; /* Adjust the top margin as needed */
+    margin-top: -17%; /* Adjust the top margin as needed */
     margin-left: -100%;
 }
 
@@ -388,7 +388,7 @@ body {
     padding: 16px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 51%;
+    width: 57.5%;
     color: #575757;
     font-size: 120%;
 }

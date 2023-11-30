@@ -148,7 +148,7 @@ body {
     padding: 10px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 55%;
+    width: 66.5%;
     color: #575757;
     font-size: 120%;
 }
@@ -196,7 +196,7 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
     border-radius: 15px; /* Add border-radius for a rounded corner effect */
     background-color: #ffffff; /* Add background color */
-    height: 220px;
+    height: 205px;
 
 }
 
@@ -233,7 +233,7 @@ body {
     padding: 16px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 64.5%;
+    width: 78%;
     color: #575757;
     font-size: 120%;
 }
@@ -252,7 +252,7 @@ body {
 .rating2 {
     font-size: 30px;
     float: right;
-    margin-top: -15%; /* Adjust the top margin as needed */
+    margin-top: -17%; /* Adjust the top margin as needed */
     margin-left: -100%;
 }
 
@@ -270,7 +270,7 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
     border-radius: 15px; /* Add border-radius for a rounded corner effect */
     background-color: #ffffff; /* Add background color */
-    height: 200px;
+    height: 180px;
 
 }
 
@@ -302,12 +302,12 @@ body {
     text-align: right;
     position: absolute;
     bottom: 3px;
-    top: -165px;
+    top: -150px;
     left: 20px;
     padding: 16px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 58.5%;
+    width: 60.5%;
     color: #575757;
     font-size: 120%;
 }
@@ -315,7 +315,7 @@ body {
 .paragraph-text3 {
     font-size: 14px;
     color: #575757;
-    margin-top: -165px;
+    margin-top: -150px;
     max-width: 1000px;
     text-align: justify;
     line-height: 1.5;
@@ -326,7 +326,7 @@ body {
 .rating3 {
     font-size: 30px;
     float: right;
-    margin-top: -19%; /* Adjust the top margin as needed */
+    margin-top: -15%; /* Adjust the top margin as needed */
     margin-left: -100%;
 }
 
@@ -388,7 +388,7 @@ body {
     padding: 16px;
     margin: 0;
     border-radius: 0 0 10px 10px;
-    width: 51%;
+    width: 65.5%;
     color: #575757;
     font-size: 120%;
 }
