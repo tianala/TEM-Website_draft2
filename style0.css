@@ -142,14 +142,7 @@ body {
     color: #ffffff;
     transition: color 0.3s;
     transform: scale(1.0);  /* Add a slight scale effect on hover */
-    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
-
-/* ... (existing CSS) */
-
-/* ... (existing CSS) */
-
-/* ... (existing CSS) */
 
 .search-bar {
     display: flex;

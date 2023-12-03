@@ -1,0 +1,1667 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6b9675;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.logo {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    margin-right: auto; /* Push search container to the right */
+}
+
+.search-bar {
+    position: relative;
+    width: 100%; /* Set the width to 100% to fill available space */
+}
+
+.search-input-wrapper {
+    position: relative;
+}
+
+.search-input-field {
+    padding: 11px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    width: 550px;
+    padding-right: 40px; /* Adjust the padding to make space for the icons */
+}
+
+.button-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    right: 13px;
+}
+
+.second-bar {
+    background: #d6d5d5;
+    padding: 6px 55px;
+    transition: 0.3s;
+    color: #6b9675;
+    text-align: center;
+}
+
+.second-bar h4 {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.home-icon {
+    cursor: pointer;
+    padding: 0 15px; /* Adjust padding to provide space around the icon */
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add a transition for the transform and box-shadow effects */
+}
+
+.home-icon:hover {
+    transform: scale(2.2); /* Increase the size on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.close-icon {
+    margin-left: 550px; /* Adjust the margin to create space between the search bar and the close icon */
+    color: #fff; /* Icon color */
+    font-size: 30px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.close-icon:hover {
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow on hover */
+    transform: scale(1.2); /* Add a slight scale effect on hover */
+}
+
+.content-box {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 18px auto 0; /* Adjust the margin to position the box lower */
+    padding: 20px; /* Add paddaing to the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    border-radius: 15px; /* Add border-radius for a rounded corner effect */
+    background-color: #ffffff; /* Add background color */
+    height: 450px; 
+}
+
+.third-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.third-section.info-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the container */
+  }
+
+
+
+.third-section h2 {
+    text-align: left;
+    /* position: absolute;
+    bottom: 3;
+    top: -7%; */
+    left: 100;
+    /*height: 600;  */
+    color: #575757;
+    font-size: 190%;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+.third-section h5 {
+    color: #434242;
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+
+  .third-section h6 {
+    color: #434242;
+    margin-left: 1%;
+    margin-right: 4%;
+  }
+
+  .third-section h4 {
+    color: #6b9675;
+    margin-left: -1%;
+    margin-right: 4%;
+  }
+  .third-section h5 a {
+    color: #6b9675;
+    text-decoration: none; /* Removes the underline from the link */
+  }
+  
+  .third-section h5 a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+
+
+.third-section h5,
+.third-section h4, 
+.third-section h6 {
+  display: inline-block;
+  margin-right: 8px; /* Adjust the gap between h5 and h6 */
+  margin-bottom: 10px; /* Add space below the entire source-and-date block */
+  font-size: 80%;
+}
+
+
+
+.paragraph-text {
+    font-size: 16px;
+    color: #575757;
+    margin-top: -20px;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 4%;
+    margin-right: 5%;
+    text-decoration: none; /* Remove underlines */
+    
+}
+
+.additional-box {
+    background-color: #f2f2f2; /* Background color for the additional box */
+    padding: 20px; /* Adjust the padding for the additional box */
+    margin-top: 20px; /* Add space between the paragraph and the additional box */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    height: 55%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.divider {
+    margin-top: 17px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 2px solid #ccc; /* Color and style of the line */
+}
+
+.additional-text {
+    font-size: 19px;
+    color: #575757;
+    margin-bottom: 10px; /* Add space below the text */
+}
+
+.materials-list {
+        list-style-type: disc; /* Use bullets as list items */
+        margin-left: 30px; /* Add some left margin for better indentation */
+        color: #575757; /* Set the color for the list items */
+        font-size: 18px; /* Set the font size for the list items */
+}
+
+.second-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 575px;
+    margin-top: 4.5%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 53%;
+    font-weight: bold; 
+}
+
+.additional-paragraph {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+
+/* sdfg */
+.third-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 715px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image2 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number2 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container2 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title2 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 32%;
+    font-weight: bold; 
+}
+
+.additional-paragraph2 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 5.5%;
+    margin-top: 420px;
+}
+
+.paragraph-list {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+
+.fourth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 680px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image3 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number3 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container3 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title3 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 28.5%;
+    font-weight: bold; 
+}
+
+.additional-paragraph3 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+.paragraph-list3 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.fifth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 740px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image4 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number4 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container4 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number4 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title4 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 52%;
+    font-weight: bold; 
+}
+
+.additional-paragraph4 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list4 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.sixth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 550px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image5 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number5 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container5 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number5 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title5 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -13%;
+    font-weight: bold; 
+}
+
+.additional-paragraph5 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+
+.seventh-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 690px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image6 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 78px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number6 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container6 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number6 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title6 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: 9%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph6 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list6 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.eight-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 570px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image7 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number7 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container7 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number7 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title7 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: 4%;
+    font-weight: bold; 
+}
+
+.additional-paragraph7 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.nineth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 630px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image8 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number8 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container8 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number8 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title8 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -50%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph8 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list8 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.tenth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 650px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image9 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number9 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container9 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number9 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title9 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -31%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph9 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list9 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.eleventh-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 700px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image10 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number10 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container10 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number10 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title10 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -45%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph10 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list10 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.twelveth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 580px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image11 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number11 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container11 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number11 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title11 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -6%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph11 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list11 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: -27%;
+    margin-right: 11%;
+}
+
+.thirteenth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 540px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image12 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number12 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container12 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number12 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title12 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -9%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph12 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list12 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.fourteenth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 880px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image13 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number13 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container13 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number13 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title13 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -54%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph13 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list13 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
+
+.fifteenth-content-box {
+    max-width: 900px;
+    width: 160%; /* Set to 100% to make it responsive */
+    margin: 18px auto 0;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 650px;
+    margin-top: 2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+.vase-image14 {
+    max-width: 100%;
+    height: 100;
+    border-radius: 10px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Set the width to 100% to make it responsive within the container */
+    max-width: 700px;
+}
+
+/* Add these styles for the image number */
+.image-number14 {
+    background-color: #6b9675;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    margin-left: 2%;
+}
+
+/* Additional styles for the image container */
+.image-container14 {
+    position: relative;
+    border: 3px solid #6b9675;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to make the border look cleaner */
+    height: 102%;
+}
+.content-overlay14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+
+.image-number14 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.image-title14 {
+    color: #575757;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: -53%;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.additional-paragraph14 {
+    font-size: 17px;
+    color: #575757;
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 420px;
+}
+
+.paragraph-list14 {
+    list-style-type: disc; /* Use bullets as list items */
+    margin-left: 30px; /* Add some left margin for better indentation */
+    color: #575757; /* Set the color for the list items */
+    font-size: 16px; /* Set the font size for the list items */
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 11%;
+}
