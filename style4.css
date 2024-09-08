@@ -228,7 +228,7 @@ body {
     text-align: right;
     position: absolute;
     bottom: 3px;
-    top: -175px;
+    top: -162px;
     left: 25px;
     padding: 16px;
     margin: 0;
@@ -241,7 +241,7 @@ body {
 .paragraph-text2 {
     font-size: 14px;
     color: #575757;
-    margin-top: -175px;
+    margin-top: -162px;
     max-width: 1000px;
     text-align: justify;
     line-height: 1.5;
@@ -252,7 +252,7 @@ body {
 .rating2 {
     font-size: 30px;
     float: right;
-    margin-top: -17%; /* Adjust the top margin as needed */
+    margin-top: -15%; /* Adjust the top margin as needed */
     margin-left: -100%;
 }
 
